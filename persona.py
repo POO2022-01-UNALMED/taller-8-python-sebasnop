@@ -27,5 +27,5 @@ class Persona:
     def setSexo(self, sexo):
         self._sexo = sexo
     
-    def getSexo():
+    def getSexo(self):
         return self._sexo
