@@ -10,9 +10,9 @@ class Futbolista(Persona, Deportista):
         Persona.__init__(self, nombre, edad, altura, sexo)
         Deportista.__init__(self, "Futbol", añosPracticando)
         
-        this._golesMarcados = golesMarcados
-        this._tarjetasRojas = tarjetasRojas
-        this._piernaHabil = piernaHabil
+        self._golesMarcados = golesMarcados
+        self._tarjetasRojas = tarjetasRojas
+        self._piernaHabil = piernaHabil
         
         Futbolista.listaFutbolistas.append(self)
 
